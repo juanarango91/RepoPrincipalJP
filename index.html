@@ -1,15 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina</title>
-    <link rel="stylesheet" href="/CSS/styles.css">
+    <title>Óptica VisionPlus</title>
+    <link rel="stylesheet" href="estilo.css"src="img/imggafasdesol">
 </head>
 <body>
-    <div>
-        <h1>VISTA PERFECTA</h1>
-    </div>
+    <!-- Encabezado -->
+    <header>
+        <div class="container">
+            <h1>Óptica VisionPlus</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#products">Productos</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                    <li><a href="#about">Sobre Nosotros</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección de Productos Destacados -->
+    <section id="products">
+        <div class="container">
+            <h2>Productos Destacados</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="path-to-your-image.jpg" alt="Gafas de Sol">
+                    <h3>Gafas de Sol</h3>
+                    <p>Gafas de sol de alta calidad con protección UV.</p>
+                    <p>$99.99</p>
+                </div>
+                <div class="product-item">
+                    <img src="path-to-your-image.jpg" alt="Lentes de Contacto">
+                    <h3>Lentes de Contacto</h3>
+                    <p>Lentes de contacto cómodos y duraderos.</p>
+                    <p>$49.99</p>
+                </div>
+                <!-- Puedes agregar más productos aquí -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Información Adicional -->
+    <section id="about">
+        <div class="container">
+            <h2>Sobre Nosotros</h2>
+            <p>En Óptica VisionPlus, ofrecemos una amplia gama de productos ópticos de alta calidad para satisfacer todas tus necesidades visuales. Contamos con un equipo de profesionales listos para ayudarte.</p>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Óptica VisionPlus. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
-
